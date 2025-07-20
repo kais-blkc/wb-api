@@ -45,11 +45,11 @@ export const SHEET_CONFIGS = [
 
 **Это файл сервисного аккаунта от Google с правами на редактирование Google Таблиц.**
 
-1. Перейди в [Google Cloud Console](https://console.cloud.google.com/)
+
+
+1. [Перейди в Google Cloud > IAM & ADMIN & Services](https://console.cloud.google.com/iam-admin/serviceaccounts)
 
 2. Создай проект (если еще нет)
-
-3. Перейди в APIs & Services → Credentials
 
 4. Нажми Create Credentials → Service Account
 
