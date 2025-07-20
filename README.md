@@ -23,7 +23,7 @@ DATABASE_URL=postgres://user:password@host:port/dbname
 GOOGLE_SHEET_IDS=sheet_id_1,sheet_id_2,...
 ```
 
-2. **Добавь** google-service-account.json в корень проекта или в папку credentials/:
+2. **Добавь** google-service-account.json в корень проекта:
 
 ```bash
 your-project/
@@ -33,8 +33,7 @@ your-project/
 ### Где взять google-service-account.json?
 
 **Это файл сервисного аккаунта от Google с правами на редактирование Google Таблиц.**
-
-1. Перейди в Google Cloud Console
+1. Перейди в [Google Cloud Console](https://console.cloud.google.com/)
 
 2. Создай проект (если еще нет)
 
@@ -95,5 +94,3 @@ stocks_coefs
 ```ts
 cron.schedule("* * * * *", ...)
 ```
-# wb-api
-# wb-api
