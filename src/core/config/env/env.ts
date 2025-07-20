@@ -20,6 +20,7 @@ const envSchema = z.object({
       .transform((value) => parseInt(value)),
   ]),
   WB_TOKEN: z.string(),
+  GOOGLE_SHEET_ID: z.string(),
 });
 
 const env = envSchema.parse({
@@ -31,6 +32,7 @@ const env = envSchema.parse({
   NODE_ENV: process.env.NODE_ENV,
   APP_PORT: process.env.APP_PORT,
   WB_TOKEN: process.env.WB_TOKEN,
+  GOOGLE_SHEET_ID: process.env.GOOGLE_SHEET_ID,
 });
 
 export default env;

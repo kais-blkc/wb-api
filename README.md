@@ -30,9 +30,21 @@ your-project/
 ├── google-service-account.json
 ```
 
+3. **Добавь** sheetId в константу `SHEET_CONFIGS` в .env или `src/core/config/google/google-sheets.config.ts`
+
+```ts
+export const SHEET_CONFIGS = [
+  {
+    sheetId: "your-sheet-id",
+    sheetName: "stocks_coefs",
+  },
+];
+```
+
 ### Где взять google-service-account.json?
 
 **Это файл сервисного аккаунта от Google с правами на редактирование Google Таблиц.**
+
 1. Перейди в [Google Cloud Console](https://console.cloud.google.com/)
 
 2. Создай проект (если еще нет)
