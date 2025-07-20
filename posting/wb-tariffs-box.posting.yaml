@@ -1,0 +1,8 @@
+name: wb tariffs box
+url: https://common-api.wildberries.ru/api/v1/tariffs/box
+headers:
+- name: Authorization
+  value: Bearer $WB_TOKEN
+params:
+- name: date
+  value: $DATE_NOW
