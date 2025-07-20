@@ -30,7 +30,7 @@ your-project/
 ├── google-service-account.json
 ```
 
-3. **Добавь** sheetId в константу `SHEET_CONFIGS` в .env или `src/core/config/google/google-sheets.config.ts`
+3. **Добавь** sheetId в константу `SHEET_CONFIGS` в`src/core/config/google/google-sheets.config.ts` или в `GOOGLE_SHEET_ID` .env  
 
 ```ts
 export const SHEET_CONFIGS = [
